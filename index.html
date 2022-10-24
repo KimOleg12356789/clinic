@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Создание сайтов</title>
+    <meta name="description" content="Сайт об HTML и CSS">
+
+    <!-- CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link media="all" href="css/mains-cont.css" rel="stylesheet">
+     <link media="all" href="css/main.css" rel="stylesheet">
+    <link media="all" href="css/shin.css" rel="stylesheet">
+    <link media="all" href="slick/slick-theme.css" rel="stylesheet">
+    <link media="all" href="css/media.css" rel="stylesheet">
+    <link media="all" href="slick/slick.css" rel="stylesheet">
+    <link media="all" href="slick/slick-theme.css" rel="stylesheet">
+    <link media="all" href="js/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+   
+  
+  <body>
+
+  <div class="modul-1">
+   <div class="modal-is">
+      <div class="closes"></div>
+          контент для видео
+      </div>
+    </div>
+
+     <div class="modul-6">
+      <div class="modal-is">
+        <div class="closes"></div>
+        <div class="modal-tit">Закажите звонок и мы скоро позвоним вам</div>
+         <form class="madal-form">
+          <input type="text" name="name" placeholder="ваше имя">
+          <input type="text" name="name" placeholder="номер телефона">
+         
+          <input class="modal-6" type="submit" value="Позвоните мне">
+          <span class="polit-mob">Отпрвляя форму, я соглашаюсь с<br> <a href="#">Политикой конфидециальности</a> и <a href="#">Пользовательским соглашением</a></span>
+        </form>
+      </div>
+    </div>
+
+     <div class="modul-7">
+      <div class="modal-is">
+        <div class="closes"></div>
+        <div class="modal-tit">Записаться на приём</div>
+         <form class="madal-form">
+          <div class="form-tits-is">ФИО врача</div>
+          <div class="form-tits-is">должность</div>
+          <input type="text" name="name" placeholder="ваше имя">
+          <input type="text" name="name" placeholder="номер телефона">
+          <input class="modal-6" type="submit" value="Записаться">
+          <span class="polit-mob">Отпрвляя форму, я соглашаюсь с<br> <a href="#">Политикой конфидециальности</a> и <a href="#">Пользовательским соглашением</a></span>
+        </form>
+      </div>
+    </div>
+
+
+  <div id="wrapper">
+    <div class="container">
+
+      <header class="header">
+  <div class="nav-header-slider">
+    <div class="holder">
+      <div class="header-panel">
+        <span class="logo" title=">Клинический институт мозга"><img src="images/logo-neuro.svg" height="101" width="355" alt="Клинический институт мозга"><span>Уральский центр реанимационной нейрореабилитации</span></span>
+
+        <div class="schedule">Мы работаем: пн-пт — с 8:00 до 20:00, сб — с 8:00 до 18:00, вс — выходной</div>
+        <div class="tools">
+          <ul class="lang">
+            <li class="active"><a>RU</a></li>
+            <li><a href="http://www.neuro-clinic.ru/" target="_blank">EN</a></li>
+          </ul>
+        </div>
+        <div class="header-block">
+          <form action="https://www.neuro-ural.ru/search/" class="search">
+            <input type="search" name="query" placeholder="Поиск по сайту">
+            <button><i class="icon-search"><img src="images/magnifying-glass-solid.svg"></i></i></button>
+          </form>
+          
+          <address class="header-address">
+            <div class="adr">
+              <div>г. Березовский<br>
+ул. Шиловская 28-6</div>
+              <span class="point"><i class="icon-location"><img src="images/location-dot-solid.svg"></i> <a href="https://www.neuro-ural.ru/about/proezd.html">Как до нас добраться?</a></span>
+            </div>
+            <div class="phones">
+              <div class="block">
+                <div class="phone"><a href="tel:+73433113380"><span>+7 (343)</span> 311-33-80</a></div>
+                <div class="phone"><a href="tel:+73433790460"><span>+7 (343)</span> 379-04-60</a></div>
+              </div>
+              <div class="links">
+                <!-- <a href="#">Позвонить с сайта</a> -->
+
+                <i class="icon-phone"><img src="images/phone-flip-solid.svg"></i>
+                <a id="modul-6" href="#callme">Обратный звонок</a>
+              </div>
+            </div>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <a href="#" class="nav-opener"><span>Menu</span></a>
+  <nav class="navbar">
+    <ul class="nav"><li class="first"><a href="https://www.neuro-ural.ru/about/">О нас</a><ul class="" style="opacity: 0; display: none;"><li class="first"><a href="https://www.neuro-ural.ru/about/doctors/">Наши специалисты</a></li><li class=""><a href="https://www.neuro-ural.ru/about/licences.html">Лицензия и патенты</a></li><li class=""><a href="https://www.neuro-ural.ru/about/vacancy/">Вакансии</a></li><li class=""><a href="https://www.neuro-ural.ru/about/video-i-stati/">Видео и статьи</a></li><li class=""><a href="https://www.neuro-ural.ru/about/partners/">Партнеры</a></li><li class=""><a href="https://www.neuro-ural.ru/about/otzyvy/">Отзывы</a></li><li class=""><a href="https://www.neuro-ural.ru/about/proezd.html">Как добраться</a></li><li class=""><a href="https://www.neuro-ural.ru/about/kartochka-kompanii.html">Карточка компании</a></li><li class=""><a href="https://www.neuro-ural.ru/about/blagotvoriteli.html">Благотворители</a></li><li class=""><a href="https://www.neuro-ural.ru/about/politika-konfidenczialnosti.html">Политика конфиденциальности</a></li><li class="last"><a href="https://www.neuro-ural.ru/about/sposobyi-oplatyi.html">Способы оплаты</a></li></ul></li><li class=""><a href="https://www.neuro-ural.ru/chasto-zadavaemyie-voprosyi.html">Часто задаваемые вопросы</a></li><li class=""><a href="https://www.neuro-ural.ru/telekonsultaczii.html">Телеконсультации</a></li><li class=""><a href="https://www.neuro-ural.ru/news/">Новости</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/">Пациентам</a><ul class="" style="opacity: 0; display: none;"><li class="first"><a href="https://www.neuro-ural.ru/patient/consulting/">Онлайн консультации</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/hospital.html">Круглосуточный стационар</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/usloviya-prebyivaniya-v-klinike.html">Условия пребывания</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/dnevnoj-staczionar.html">Дневной стационар</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/poliklinika.html">Поликлиника</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/programmy/">Направления деятельности</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/diseases.html">Заболевания</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/information/">Важная информация</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/12.html">Реабилитация после Covid-19</a></li><li class=""><a href="https://www.neuro-ural.ru/patient/dictonary/">Энциклопедия</a></li><li class="last"><a href="https://www.neuro-ural.ru/patient/formyi-zayavlenij.html">Формы заявлений</a></li></ul></li><li class=""><a href="https://www.neuro-ural.ru/uslugi-i-ceny/">Услуги и цены</a></li><li class="last"><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/">Обучение</a><ul class="" style="opacity: 0; display: none;"><li class="first"><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/uchebnye-materialy.html">Учебные материалы</a></li><li class=""><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/biblioteka/">Библиотека</a></li><li class=""><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/fond-prezidentskix-grantov.html">Фонд президентских грантов</a></li><li class=""><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/presentations/">Презентации по темам</a></li><li class=""><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/nejrourologiya.html">Нейроурология</a></li><li class="last"><a href="https://www.neuro-ural.ru/ucheba-dlya-reabilitacionnyh-brigad/povyishenie-kvalifikaczii-vrachej.html">Повышение квалификации врачей</a></li></ul></li><li class=""><a href="https://www.neuro-ural.ru/videokanal.html">КИМ-ТВ</a></li><li class="last"><a href="https://www.neuro-ural.ru/contacts.html">Контакты</a></li></ul>
+  </nav>
+</header>
+        
+<div class="nav-slide-holder">
+<div class="slid-wrap">
+    <div class="slid-wrap-is responsives">
+    <div class="slid-bl">
+      <div class="slid-left">
+        <div class="slid-tit">ПРИЕМ ВРАЧА-СОМНОЛОГА (ХРАП,<br> БЕССОННИЦА И ДРУГИЕ НАРУШЕНИЯ СНА)</div>
+        <div class="slid-text">Запись по телефону: 311-33-80</div>
+        <a class="slid-but" href="#">ПОДРОБНЕЕ</a>
+      </div>
+      <div class="slid-right"><img src="images/slid-img-1.png"></div>
+    </div>
+    <div class="slid-bl">
+      <div class="slid-left">
+        <div class="slid-tit">ПРИЕМ ВРАЧА-СОМНОЛОГА (ХРАП,<br> БЕССОННИЦА И ДРУГИЕ НАРУШЕНИЯ СНА)</div>
+        <div class="slid-text">Запись по телефону: 311-33-80</div>
+        <a class="slid-but" href="#">ПОДРОБНЕЕ</a>
+      </div>
+      <div class="slid-right"><img src="images/slid-img-1.png"></div>
+    </div>
+    <div class="slid-bl">
+      <div class="slid-left">
+        <div class="slid-tit">ПРИЕМ ВРАЧА-СОМНОЛОГА (ХРАП,<br> БЕССОННИЦА И ДРУГИЕ НАРУШЕНИЯ СНА)</div>
+        <div class="slid-text">Запись по телефону: 311-33-80</div>
+        <a class="slid-but" href="#">ПОДРОБНЕЕ</a>
+      </div>
+      <div class="slid-right"><img src="images/slid-img-1.png"></div>
+    </div>
+    </div>
+    <div class="arrow-bl">
+             <div class="next-arrow"><img src="images/slid-left.svg"></div>
+             <div class="prev-arrow"><img src="images/slid-right.svg"></div>
+    </div>
+</div>
+
+
+<div class="center-wrap">
+  <div class="wrap-conteiner">
+      <div class="tit-bl">
+        <h1 class="tit-is">Уральский центр реанимационной нейрореабилитации</h1>
+        <a class="tit-but">Подробнее о нас</a>
+      </div>
+      <div class="center-text-bl">
+        <div class="center-text-img"><img src="images/center-img.png"></div>
+        <div class="center-text-bl-is">
+          <p>От имени коллектива Клинического института Мозга (КИМ) я приветствую вас и хочу рассказать о нашем
+учреждении, которому в 2021 исполнилось 17 лет.</p><p>КИМ был организован в Екатеринбурге в 2004 году на базе ведущей клиники нашего региона – центра неврологии и нейрохирургии городской клинической больницы №40. Того самого центра, где работал основатель Уральской школы неврологов и нейрохирургов Д. Г. Шефер. Следуя традициям школы, КИМ из маленькой лаборатории нейрофизиологии превратился в зрелое научно-клиническое учреждение международного масштаба. Это стало возможным благодаря реальной помощи Роберта Макферсона известного американского нейроанестезиолога и постоянной поддержке руководителей регионального здравоохранения, а также Российской Академии медицинских наук.</p>
+          <div class="center-text-tit">Белкин Андрей Августович </div>
+          <p>доктор медицинских наук, профессор кафедр нервных болезней и анестезиологии-реаниматологии Уральской государственной медицинской Академии, председатель Наблюдательного Совета АНО «Клинический Институт Мозга»</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="wrap-conteiner">
+  <div class="icon-bl">
+    <div class="tit-bl">
+      <h2 class="icon-tit">Амбулаторно-диагностические программы</h2>
+      <a class="tit-but">Все направления деятельности</a>
+    </div>
+    <div class="icon-wrpa">
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s1.svg"></div>
+        <a href="" class="icon-tits">Профилактика инсульта</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s2.svg"></div>
+        <a href="" class="icon-tits">Выездные программы</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s3.svg"></div>
+        <a href="" class="icon-tits">Диагностика и лечение эпилепсии</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s4.svg"></div>
+        <a href="" class="icon-tits">Лечение головокружений</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s5.svg"></div>
+        <a href="" class="icon-tits">Нейроурология</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s6.svg"></div>
+        <a href="" class="icon-tits">Эндокринология</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s7.svg"></div>
+        <a href="" class="icon-tits">Комплексные программы обследования</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s8.svg"></div>
+        <a href="" class="icon-tits">Детская неврология</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s9.svg"></div>
+       <a href="" class="icon-tits">Головная боль</a>
+      </div>
+       <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s10.svg"></div>
+        <a href="" class="icon-tits">Методы диагностики</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s11.svg"></div>
+        <a href="" class="icon-tits">Проблемы спины</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s12.svg"></div>
+        <a href="" class="icon-tits">Индивидуализированный подбор ноотропной терапии</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s13.svg"></div>
+        <a href="" class="icon-tits">Нарушения сна</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s14.svg"></div>
+        <a href="" class="icon-tits">Болезнь Паркинсона, паркинсонизм и другие экстрапирамидные патологии</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s15.svg"></div>
+        <a href="" class="icon-tits">Лабораторная диагностика</a>
+      </div>
+      <div class="icon-bl-is">
+        <div class="icon-img"><img src="images/s16.svg"></div>
+        <a href="" class="icon-tits">Психиатрия</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="help-wrap">
+  <div class="wrap-conteiner">
+    <div class="help-bl-is">
+      <div class="help-bl-text">
+        <div class="help-tit">Мы помогаем</div>
+        <div class="help-text-is"><p>Полноценная реабилитация для перенесшего инсульт пациента в городе Екатеринбург стала возможной благодаря центру в Березовском.</p><p>Высококвалифицированное проведение реабилитации после инсульта обеспечивают
+в центре «Клинический институт мозга». Здесь работают опытные специалисты, которые
+по результатам обследования разработают наиболее эффективную программу согласно индивидуальным потребностям конкретного пациента. При этом, расценки на процедуры клиники оптимальные и не нанесут ущерба семейному бюджету!</p></div>
+      </div>
+      <div class="help-vid"><a id="vid"><img src="images/vid-buts.svg"></a><img src="images/vid-img.png"></div>
+    </div>
+  </div>
+</div>
+
+<div class="form-bl">
+    <div class="form-wrpa">
+      <div class="form-is">
+        <div class="form-tit">Записаться на приём</div>
+        <form class="form-in">
+          <div class="form-text">Оставьте заявку и мы свяжемся с вами в ближайшее время!</div>
+          <input type="text" name="name" placeholder="Ваше имя">
+          <input type="text" name="name" placeholder="E-mail">
+          <input type="text" name="name" placeholder="Телефон">
+          <input type="text" name="name" placeholder="Наименование специалиста или обследование">
+          <div class="text-check">
+                    <input class="check" id="checkbox-id" type="checkbox">
+                    <label type="checkbox"  for="checkbox-id"></label>
+                    <span>Я ознакомлен с <a href="">Политикой обработки и защиты персональных данных</a> Клиники, принимаю ее, а также даю свое согласие на сбор, обработку и хранение моих персональных данных согласно бланку указанного <a href="">Согласия</a></span>
+          </div>
+          <input type="submit" value="ОТПРАВИТЬ">
+     </form>
+      </div>
+      <div class="form-slid">
+        <div class="tit-bl is">
+          <div class="icon-tit">Специалисты</div>
+          <a class="tit-but">Все специалисты</a>
+        </div>
+        <div class="form-slid-wrap responsive">
+          <div class="form-slid-is">
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+            </div>
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+          </div>
+        </div>
+        <div class="form-slid-is">
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+            </div>
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+          </div>
+        </div>
+        <div class="form-slid-is">
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+            </div>
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+          </div>
+        </div>
+        <div class="form-slid-is">
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+            </div>
+            <div class="form-slid-in">
+              <div class="form-slid-tit">Поздняков Дмитрий Геннадьевич</div>
+              <div class="form-slid-text">Врач функциональной диагностики</div>
+              <div class="form-slid-img-bl">
+                <div class="form-slid-img-text">
+                  <div class="form-slid-img-tit">Консультация</div>
+                  <div class="form-slid-img-prise">2 000 руб.</div>
+                  <a id="modul-7" class="form-slid-img-but">Записаться</a>
+                </div>
+                <div class="form-slid-img-is"><img src="images/pozdniakov 1.png"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="arrow-bl is3">
+             <div class="next-arrow"><img src="images/slid-left.svg"></div>
+             <div class="prev-arrow"><img src="images/slid-right.svg"></div>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="acord-bl">
+  <div class="wrap-conteiner">
+  <h2 class="acord-tit">Реабилитация после инсульта</h2>
+  <div class="acord-bl">
+              <div class="accordion-wrap">
+                   <div class="accordion-item">
+                      <h3 class="accordion-header">Восстановление после инсульта - Клинический Институт Мозга</h3>
+                   </div>
+                          <div class="accordion-text">
+                           <p>Последствия нарушения работы клеток головного мозга сказываются на функционировании всего организма. По этой причине реабилитация после инсульта играет не менее важную роль, чем своевременное купирование приступа. Центр реабилитации после инсульта “Клинический Институт Мозга” разрабатывает комплексы упражнений, исходя
+из индивидуальных потребностей пациента, что позволяет достичь значительных результатов за сокращенный период.</p><p>Инсульт представляет собой острую форму нарушения в кровообращения мозга, приводящую к серьезным повреждениям нейронов и последующему их отмиранию. В зависимости
+от того, что стало причиной инсульта, выделяют ишемическую или геморрагическую форму приступа. В первом случае приступ провоцируется блокировкой кровеносного сосуда бляшкой или тромбом, во втором – разрывом его стенок. Лечение и реабилитация пациентов, перенесших инсульт, являются сложными многоэтапными процессами,
+требующими постоянного контроля квалифицированных специалистов.</p>
+                          </div>
+          </div>
+          <div class="accordion-wrap">
+               <div class="accordion-item">
+                  <h3 class="accordion-header">Принципы реабилитации пациентов после инсульта</h3>
+          </div>
+                            <div class="accordion-text">
+                              <p>Последствия нарушения работы клеток головного мозга сказываются на функционировании всего организма. По этой причине реабилитация после инсульта играет не менее важную роль, чем своевременное купирование приступа. Центр реабилитации после инсульта “Клинический Институт Мозга” разрабатывает комплексы упражнений, исходя
+из индивидуальных потребностей пациента, что позволяет достичь значительных результатов за сокращенный период.</p><p>Инсульт представляет собой острую форму нарушения в кровообращения мозга, приводящую к серьезным повреждениям нейронов и последующему их отмиранию. В зависимости
+от того, что стало причиной инсульта, выделяют ишемическую или геморрагическую форму приступа. В первом случае приступ провоцируется блокировкой кровеносного сосуда бляшкой или тромбом, во втором – разрывом его стенок. Лечение и реабилитация пациентов, перенесших инсульт, являются сложными многоэтапными процессами,
+требующими постоянного контроля квалифицированных специалистов.</p>
+                            </div>
+          </div>
+        <div class="accordion-wrap">
+               <div class="accordion-item">
+                  <h3 class="accordion-header">Двигательная реабилитация</h3>
+                </div>
+                            <div class="accordion-text">
+                             <p>Последствия нарушения работы клеток головного мозга сказываются на функционировании всего организма. По этой причине реабилитация после инсульта играет не менее важную роль, чем своевременное купирование приступа. Центр реабилитации после инсульта “Клинический Институт Мозга” разрабатывает комплексы упражнений, исходя
+из индивидуальных потребностей пациента, что позволяет достичь значительных результатов за сокращенный период.</p><p>Инсульт представляет собой острую форму нарушения в кровообращения мозга, приводящую к серьезным повреждениям нейронов и последующему их отмиранию. В зависимости
+от того, что стало причиной инсульта, выделяют ишемическую или геморрагическую форму приступа. В первом случае приступ провоцируется блокировкой кровеносного сосуда бляшкой или тромбом, во втором – разрывом его стенок. Лечение и реабилитация пациентов, перенесших инсульт, являются сложными многоэтапными процессами,
+требующими постоянного контроля квалифицированных специалистов.</p>
+                            </div>
+          </div>
+          <div class="accordion-wrap">
+               <div class="accordion-item">
+                  <h3 class="accordion-header">Речевая реабилитация </h3>
+                </div>
+                            <div class="accordion-text">
+                              <p>Последствия нарушения работы клеток головного мозга сказываются на функционировании всего организма. По этой причине реабилитация после инсульта играет не менее важную роль, чем своевременное купирование приступа. Центр реабилитации после инсульта “Клинический Институт Мозга” разрабатывает комплексы упражнений, исходя
+из индивидуальных потребностей пациента, что позволяет достичь значительных результатов за сокращенный период.</p><p>Инсульт представляет собой острую форму нарушения в кровообращения мозга, приводящую к серьезным повреждениям нейронов и последующему их отмиранию. В зависимости
+от того, что стало причиной инсульта, выделяют ишемическую или геморрагическую форму приступа. В первом случае приступ провоцируется блокировкой кровеносного сосуда бляшкой или тромбом, во втором – разрывом его стенок. Лечение и реабилитация пациентов, перенесших инсульт, являются сложными многоэтапными процессами,
+требующими постоянного контроля квалифицированных специалистов.</p>
+                            </div>
+          </div>
+          </div>
+        </div>
+</div>
+
+
+  <div class="wrap-conteiner">
+    <div class="pain-wrap">
+      <div class="pain-tit">Оплатить онлайн</div>
+      <div class="pain-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста</div>
+      <a href="" class="pain-but">ОПЛАТИТЬ</a>
+    </div>
+  </div>
+
+  <div class="wrap-conteiner">
+    <div class="rev-bl">
+      <div class="tit-bl">
+        <div class="icon-tit">Отзывы</div>
+        <a class="tit-but">Перейти к отзывам</a>
+      </div>
+      <div class="rev-bl-wrap">
+        <div class="rev-bl-is">
+          <div class="rev-tit">Павел Сергеевич, Виктория Волошенко</div>
+          <div class="rev-text">Сегодня 22.04.2022 у папы Волошенко П.С. было последнее занятие с психологом в рамках телереабилитации. Наша семья от души благодарит замечательного психолога Наталью Викторовну! Уважаемая Наталья Викторовна огромное Вам спасибо за Ваш труд, неизменную доброжелательность, терпение и профессионализм, индивидуальный подход. Занятия
+с Вами были в удовольствие. У нас это уже не первый цикл и очень понравилось, что сразу, с первого занятия упражнения давались не самые простые, а для «продвинутых» - это</div>
+          <a class="rev-but">Подробнее</a>
+          <div class="rev-text-more">Сегодня 22.04.2022 у папы Волошенко П.С. было последнее занятие с психологом в рамках телереабилитации. Наша семья от души благодарит замечательного психолога Наталью Викторовну! Уважаемая Наталья Викторовна огромное Вам спасибо за Ваш труд, неизменную доброжелательность, терпение и профессионализм, индивидуальный подход. Занятия
+с Вами были в удовольствие. У нас это уже не первый цикл и очень понравилось, что сразу, с первого занятия упражнения давались не самые простые, а для «продвинутых» - это</div>
+        <a class="rev-but-more">скрыть</a>
+        </div>
+        <div class="rev-bl-is">
+          <div class="rev-tit">Жданова</div>
+          <div class="rev-text">Была 4 дня. Очень понравился лечащий врач Соболев Аркадий Игоревич и нейропсихолог Екатерина Константиновна. Всем желаю здоровья! Очень хорошо, что есть такой центр с обследованием.</div>
+        </div>
+        <div class="rev-bl-is">
+          <div class="rev-tit">Ольга</div>
+          <div class="rev-text">Гуцул Денис очень хороший. Свою работу выполняет качественно. Хотелось бы выразить благодарность Пинчук Елене Анатольевне. Большое спасибо всему коллективу этой замечательной клиники от заведующего до санитарочек! Особая благодарность кух.работнику Светлане Борисовне!</div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-bl is2">
+             <div class="next-arrowis3"><img src="images/slid-left.svg"></div>
+             <ul class="pag-bl">
+               <li>1</li>
+               <li>2</li>
+               <li>...</li>
+               <li>6</li>
+             </ul>
+             <div class="prev-arrowis3"><img src="images/slid-right.svg"></div>
+    </div>
+  </div>
+
+  <div class="wrap-conteiner slid">
+    <div class="galer-tit">Галерея</div>
+      <div class="galer-wrap responsiv">
+        <div class="galer-img"><a href="images/slid-1.png" class="lightbox" rel="licenses"><img src="images/slid-1.png"></a></div>
+        <div class="galer-img"><a href="images/slid-2.png" class="lightbox" rel="licenses"><img src="images/slid-2.png"></a></div>
+        <div class="galer-img"><a href="images/slid-3.png" class="lightbox" rel="licenses"><img src="images/slid-3.png"></a></div>
+        <div class="galer-img"><a href="images/slid-1.png" class="lightbox" rel="licenses"><img src="images/slid-1.png"></a></div>
+        <div class="galer-img"><a href="images/slid-2.png" class="lightbox" rel="licenses"><img src="images/slid-2.png"></a></div>
+        <div class="galer-img"><a href="images/slid-3.png" class="lightbox" rel="licenses"><img src="images/slid-3.png"></a></div>
+      </div>
+      <div class="arrow-bl slid">
+             <div class="next-arrow"><img src="images/slid-left.svg"></div>
+             <div class="prev-arrow"><img src="images/slid-right.svg"></div>
+    </div>
+  </div>
+
+
+
+
+<div class="wrap-conteiner news">
+  <div class="news-wrap">
+    <div class="news-tit">Новости</div>
+    <div class="news-bl">
+      <div class="news-is">
+        <div class="news-img"><a href=""><img src="images/news-1.png"></a></div>
+        <div class="news-time">29 августа 2022</div>
+        <div class="news-text">Мультидисциплинарная реабилитационная команда центральной городской больницы города Ирбита прошла обучение по ...</div>
+        <a href="" class="news-but">Подробнее</a>
+      </div>
+      <div class="news-is">
+        <div class="news-img"><a href=""><img src="images/news-2.png"></a></div>
+        <div class="news-time">29 августа 2022</div>
+        <div class="news-text">О реабилитации в Свердловской области. Программа Рецепт на ОТВ</div>
+        <a href="" class="news-but">Подробнее</a>
+      </div>
+      <div class="news-is">
+        <div class="news-img"><a href=""><img src="images/news-1.png"></a></div>
+        <div class="news-time">29 августа 2022</div>
+        <div class="news-text">Мультидисциплинарная реабилитационная команда центральной городской больницы города Ирбита прошла обучение по ...</div>
+        <a href="" class="news-but">Подробнее</a>
+      </div>
+      <div class="news-is">
+        <div class="news-img"><a href=""><img src="images/news-2.png"></a></div>
+        <div class="news-time">29 августа 2022</div>
+        <div class="news-text">О реабилитации в Свердловской области. Программа Рецепт на ОТВ</div>
+        <a href="" class="news-but">Подробнее</a>
+      </div>
+    </div>
+  </div>
+  <div class="news-enc-wrap">
+    <div class="news-enc-tit">Статьи энциклопедии</div>
+    <div class="news-enc-is">
+      <div class="news-enc-tit-bl">
+        <div class="news-enc-tit-is">Автор: Александр Сенцов</div>
+        <div class="news-enc-tit-time">2022</div>
+      </div>
+      <div class="news-enc-text">Инсульт после прививки от коронавируса</div>
+      <a class="news-enc-but" href="">Подробнее</a>
+    </div>
+    <div class="news-enc-is">
+      <div class="news-enc-tit-bl">
+        <div class="news-enc-tit-is">Автор: Александр Сенцов</div>
+        <div class="news-enc-tit-time">2022</div>
+      </div>
+      <div class="news-enc-text">Инсульт после прививки от коронавируса</div>
+      <a class="news-enc-but" href="">Подробнее</a>
+    </div>
+    <div class="news-enc-is">
+      <div class="news-enc-tit-bl">
+        <div class="news-enc-tit-is">Автор: Александр Сенцов</div>
+        <div class="news-enc-tit-time">2022</div>
+      </div>
+      <div class="news-enc-text">Инсульт после прививки от коронавируса</div>
+      <a class="news-enc-but" href="">Подробнее</a>
+    </div>
+    <div class="news-enc-is">
+      <div class="news-enc-tit-bl">
+        <div class="news-enc-tit-is">Автор: Александр Сенцов</div>
+        <div class="news-enc-tit-time">2022</div>
+      </div>
+      <div class="news-enc-text">Инсульт после прививки от коронавируса</div>
+      <a class="news-enc-but" href="">Подробнее</a>
+    </div>
+  </div>
+</div>
+
+<div class="wrap-conteiner part">
+  <div class="galer-tit is">Партнёры</div>
+  <div class="slid-part-wrap respons">
+   <div class="slid-part-img"><img src="images/logo-header.svg"></div>
+   <div class="slid-part-img"><img src="images/2.svg"></div>
+   <div class="slid-part-img"><img src="images/logo-header.svg"></div>
+   <div class="slid-part-img"><img src="images/2.svg"></div>
+   <div class="slid-part-img"><img src="images/logo-header.svg"></div>
+   <div class="slid-part-img"><img src="images/2.svg"></div>
+  </div>
+  <div class="arrow-bl part">
+             <div class="next-arrow"><img src="images/slid-left.svg"></div>
+             <div class="prev-arrow"><img src="images/slid-right.svg"></div>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+  <div class="main">
+    <div class="nav-slide-holder">
+      <div class="holder">
+        <div class="by">
+          <img src="images/webstroy.png" height="40" width="141" alt="webstroy">
+          <div class="links">
+            <a href="https://www.webstroy-site.ru/" target="_blank">Создание</a> и <a href="https://www.webstroy-promo.ru/" target="_blank">продвижение</a>
+          </div>
+        </div>
+        
+        <div class="phones">
+          <div class="block">
+            <div class="col">
+              <div class="phone"><a href="tel:+73433113380"><span>+7 (343)</span> 311-33-80</a></div>
+            </div>
+            <div class="col">
+              <div class="phone"><a href="tel:+73433790460"><span>+7 (343)</span> 379-04-60</a></div>
+            </div>
+          </div>
+          <div class="links">
+            <div class="col">
+              <i class="icon-phone is"><img src="images/phone-flip-solid.svg"></i>
+              <a href="#callme" id="modul-6">Обратный звонок</a>
+            </div>
+            <div class="col">
+              <!-- <a href="#">Позвонить с сайта</a> -->
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="copy">
+          <p>© 1998-2013 гг. АНО "Клинический Институт Мозга"<br>
+© с 2013 г. ООО "Клиника Института Мозга"<br>
+Россия, Свердловская область, г. Березовский, ул. Шиловская 28-6</p>
+          <div class="how-get">
+            <i class="icon-location"></i> <a href="https://www.neuro-ural.ru/about/proezd.html">Как до нас добраться?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+     
+      
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/code.js"></script>
+    <script src="js/top100.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/usability.js"></script>
+    <script src="js/jquery.main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+  </body>
+</html>
